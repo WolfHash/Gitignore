@@ -1,0 +1,252 @@
+# Author: Vladimir Zaremobskiy
+# Source: https://github.com/WolfHash/PyCharm-Gitignore
+
+# Скомпилированные файлы Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+*.o
+*.obj
+*.dll
+*.dylib
+*.exe
+
+# Файлы Cython
+*.c
+cython_debug/
+
+# Дистрибутивные директории и установочные файлы
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Логи установщика
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Данные тестирования и покрытия кода
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+pytestdebug.log
+
+# Файлы конфигурации
+*.cfg
+*.ini
+*.mako
+
+# Директории виртуальных окружений
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.env/
+.venv/
+__pypackages__/
+
+# Личные данные и файлы окружения
+.env
+.env.*
+.env.local
+.env.*.local
+.history
+
+# Файлы редактора
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+
+# Файлы macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._
+
+# Файлы Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Сгенерированные файлы
+*.manifest
+*.spec
+
+# Логи и отладочная информация
+*.log
+debug.log
+
+# Базы данных
+*.db
+*.sqlite
+*.sqlite3
+db.sqlite3
+db.sqlite3-journal
+
+# Сокеты
+*.sock
+
+# Объекты, загружаемые пользователем
+media/
+
+# Локальные настройки
+local_settings.py
+
+# Файлы переводов
+*.mo
+*.pot
+
+# Файлы Celery
+celerybeat-schedule
+celerybeat.pid
+
+# Файлы документации Sphinx
+docs/_build/
+docs/_output/
+
+# Файлы IPython/Jupyter
+.profile_default/
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+ipython_config.py
+
+# Файлы pyenv
+.python-version
+
+# Файлы mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Файлы Pyre
+.pyre/
+
+# Файлы pytype
+.pytype/
+
+# Файлы Bandit
+.bandit/
+
+# Файлы Pylint
+.pylint.d/
+
+# Файлы редактора Emacs
+*~
+\#*\#
+.\#*
+
+# Файлы редактора Vim
+*.swp
+*.swo
+*.swn
+Session.vim
+.netrwhist
+.vimrc
+
+# Резервные копии
+*.bak
+
+# Файлы системы контроля версий
+*.orig
+
+# Файлы профилирования
+.prof
+
+# Другие временные файлы
+*.tmp
+*.temp
+
+# Секретные ключи и токены
+secrets.json
+
+# Файлы Docker
+*.tar
+
+# Логи Gunicorn
+gunicorn.error.log
+gunicorn.access.log
+
+# Файлы статистики
+stats/
+
+# Файлы pre-commit
+.pre-commit-config.yaml
+.pre-commit-hooks.yaml
+
+# Файлы Poetry
+poetry.lock
+pyproject.toml
+
+# Файлы Pipenv
+Pipfile.lock
+
+# Файлы PyBuilder
+target/
+
+# Файлы Scrapy
+.scrapy/
+
+# Файлы Flask
+instance/
+.webassets-cache
+
+# Файлы Spyder
+.spyderproject
+.spyproject
+
+# Файлы Rope
+.ropeproject
+
+# Файлы Cython debug
+cython_debug/
+
+# Файлы SageMath
+*.sage.py
+
+# Файлы Vagrant
+.vagrant/
+
+# Файлы Node.js
+node_modules/
+
+# Файлы тестирования
+test_results/
+
+# Сохраненные модели машинного обучения
+*.h5
+*.ckpt
+
+# Сгенерированные файлы Plotly
+*.html
+
+# Файлы парсера ANTLR
+*.interp
+*.tokens
