@@ -1,5 +1,5 @@
 # Author: Vladimir Zaremobskiy
-# Source: https://github.com/WolfHash/PyCharm-Gitignore
+# Source: https://github.com/WolfHash/Gitignore
 
 # Скомпилированные файлы Python
 __pycache__/
